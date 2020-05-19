@@ -16,7 +16,7 @@ const Tab = createMaterialBottomTabNavigator();
 const App = () => {
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#694fad" />
+      <StatusBar barStyle="light-content" backgroundColor="#673ab7" />
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={({ route }) => ({
@@ -34,7 +34,7 @@ const App = () => {
             },
           })}
           initialRouteName="Home"
-          activeColor="#694fad"
+          activeColor="#673ab7"
           inactiveColor="#757575"
           barStyle={{ backgroundColor: '#fff' }}
         >
